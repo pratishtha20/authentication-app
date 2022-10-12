@@ -21,7 +21,7 @@ export const login =(credentials)=>{
         // login with firebase //
 
 
-        dispatch(addToken(credentials))
+        // dispatch(addToken(credentials))
     }
 }
 export const logout =()=>{
@@ -29,6 +29,6 @@ export const logout =()=>{
         // logout with firebase //
 
 
-        dispatch(removeToken())
+        // dispatch(removeToken())
     }
 }
